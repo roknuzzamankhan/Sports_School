@@ -1,0 +1,22 @@
+.services {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 50px 50px;
+}
+.service {
+  width: 90%;
+  margin: 20px;
+  transition: .5s ease;
+  -webkit-transition: .5s ease;
+  -moz-transition: .5s ease;
+  -ms-transition: .5s ease;
+  -o-transition: .5s ease;
+}
+
+.service:hover {
+  transform: scale(1.1, 1.1);
+  -webkit-transform: scale(1.1, 1.1);
+  -moz-transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
+  -o-transform: scale(1.1, 1.1);
+}
